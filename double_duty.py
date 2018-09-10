@@ -6,7 +6,8 @@ that it locates the smallest number in the list argument.
 Return the smallest value found. Please do not use python's min() function.
 """
 def find_min(alist):
-    pass
+    alist.sort()
+    return alist[0]
 
 
 """Remove the pass statement then implement the following python function so
